@@ -15,10 +15,9 @@ toc: no
 
 ## Mitglieder
 
-- Kai Geschuhn, [Max Planck Digital Library München](https://www.mpg.de/mpdl-de) 
+- Sabrina Erkeling, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/) 
 - Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/) 
 - Dr. Angela Holzer, [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (Gast) 
-- Dr. Klaus Junkes-Kirchen, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/) 
 - Dr. Antje Kellersohn, [Universitätsbibliothek Freiburg](https://www.ub.uni-freiburg.de/) 
 - Petra Labriga, [ZB MED -- Informationszentrum Lebenswissenschaften](https://www.zbmed.de/) 
 - Sascha Lauer, [Universitätsbibliothek Mainz](https://www.ub.uni-mainz.de/de) / [Deutscher Bibliotheksverband](https://www.bibliotheksverband.de/) (Gast) 
