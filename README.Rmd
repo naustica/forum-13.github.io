@@ -37,6 +37,8 @@ library(dplyr)
 library(ggiraph)
 library(cowplot)
 library(htmlwidgets)
+library(ggplot2)
+
 my_df <- tibble::tribble(
 
 ~publisher, ~type, ~prop,~colors,
@@ -55,8 +57,8 @@ my_df <- tibble::tribble(
 "Sonstige","other",0.22,"#e5e5e5"
 )
 
-p <- my_df %>%
-  mutate(publisher = forcats::fct_inorder(publisher)) %>%
+p <- my_df |>
+  mutate(publisher = forcats::fct_inorder(publisher)) |>
   ggplot(aes(x = "", y = prop, fill = type, group = publisher)) +
   geom_bar_interactive(width = 1,
            stat = "identity",
