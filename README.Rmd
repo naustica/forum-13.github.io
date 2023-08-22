@@ -38,19 +38,19 @@ library(cowplot)
 my_df <- tibble::tribble(
 
 ~publisher, ~type, ~prop,~colors,
-"Springer Nature","DEAL",0.19,"#ff6900",
-"Elsevier","other",0.19,"#abb8c3",
-"Wiley","DEAL",0.1,"#ff6900",
-"MPDI","OA-Verlag",0.04,"#ff6900",
-"ACS","other",0.03,"#abb8c3",
-"T&F","other",0.03,"#abb8c3",
+"Elsevier","other",0.21,"#abb8c3",
+"Springer Nature","DEAL",0.20,"#ff6900",
+"Wiley","DEAL",0.11,"#ff6900",
+"MPDI","OA-Verlag",0.07,"#ff6900",
 "Frontiers","OA-Verlag",0.03,"#ff6900",
-"RSC","other",0.03,"#abb8c3",
 "OUP","other",0.03,"#abb8c3",
-"APS","other",0.03,"#abb8c3",
-"Thieme","other",0.02,"#abb8c3",
-"IOP","other",0.02,"#abb8c3",
-"Sonstige","other",0.26,"#e5e5e5"
+"T&F","other",0.03,"#abb8c3",
+"ACS","other",0.03,"#abb8c3",
+"De Gruyter","other",0.02,"#abb8c3",
+"APS","other",0.02,"#abb8c3",
+"Sage","other",0.01,"#abb8c3",
+"IOP","other",0.01,"#abb8c3",
+"Sonstige","other",0.22,"#e5e5e5"
 )
 
 p <- my_df %>%
@@ -74,8 +74,8 @@ p <- my_df %>%
         plot.title = element_text(face = "plain")) +
   theme(legend.position="top") +
   theme(plot.title = element_text(size=30)) +
-  labs(x = NULL, y = NULL, title = "Wissenschaftliche Artikel\ndeutscher Einrichtungen\n2018-20",
-       caption = 'Quelle: https://open-access-monitor.de\n(Datenstand vom 26.01.2022)')
+  labs(x = NULL, y = NULL, title = "Wissenschaftliche Artikel\ndeutscher Einrichtungen\n2019-22",
+       caption = 'Quelle: https://open-access-monitor.de\n(Datenstand vom 22.08.2023)')
 
 htmlwidgets::saveWidget(girafe(
   ggobj = p,
