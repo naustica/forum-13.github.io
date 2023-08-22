@@ -32,9 +32,11 @@ Ziel der Aktivitäten ist der Austausch zu Fragen rund um die Modellierung und p
 
 
 ```{r, echo=FALSE,message=FALSE}
-library(tidyverse)
+library(tibble)
+library(dplyr)
 library(ggiraph)
 library(cowplot)
+library(htmlwidgets)
 my_df <- tibble::tribble(
 
 ~publisher, ~type, ~prop,~colors,
