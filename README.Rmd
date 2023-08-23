@@ -69,10 +69,10 @@ p <- my_df |>
   scale_fill_manual(NULL, values = c("DEAL" = "#B52141", "OA-Verlag" = "#0093c7", "other" = "grey60"), breaks= c("DEAL", "OA-Verlag")) +
   scale_y_continuous(labels = scales::percent_format(),  expand = expansion(mult = c(0, 0.05))) +
     # improvement https://community.rstudio.com/t/stacked-bar-with-labels-at-the-right-end-using-ggrepel-and-ggplot2/169123
-  #  geom_text(aes(label = publisher), 
-  #             position = position_stack(vjust = 0.5, hjust = -2), size = 5.5,
-  #            color = "white") +
-   ggrepel::geom_text_repel(size = 5.5, color = "white", position = position_stack(vjust = 0.5)) +
+    geom_text(aes(label = publisher), 
+               position = position_stack(vjust = 0.5), size = 5,
+              color = "white") +
+  # ggrepel::geom_text_repel(size = 5.5, color = "white", position = position_stack(vjust = 0.5)) +
    cowplot::theme_minimal_hgrid(font_size= 22, font_family = "Roboto") +
     theme(plot.caption = element_text(hjust = 0, face= "italic"),
         plot.title.position = "plot", 
@@ -86,9 +86,13 @@ p <- my_df |>
 htmlwidgets::saveWidget(girafe(
   ggobj = p,
   width_svg = 6,
-  height_svg = 18*0.618,
-  fonts = list(sans = "Roboto")
-), "inst/pkgdown/oachart.html")
+  height_svg = 24*0.618,
+  fonts = list(sans = "Roboto"),
+  options = list(opts_tooltip(
+    css="background-color:white;
+;font-size:1.15em;padding:10px;border-radius:5px;box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)",
+    opacity = .95))), "inst/pkgdown/oachart.html")
+
 ```
 
 </div>
