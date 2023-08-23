@@ -19,5 +19,6 @@ Imports:
     knitr,
     rmarkdown,
     tibble,
-    htmlwidgets
+    htmlwidgets,
+    ggrepel
 VignetteBuilder: knitr
