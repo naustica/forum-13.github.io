@@ -21,6 +21,13 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Install Google Fonts
+        run: |
+          wget -O Roboto.zip https://fonts.google.com/download?family=Roboto
+          unzip -d Roboto/ Roboto.zip
+          mv Roboto /usr/share/fonts/
+          fc-cache -fv
 
       - uses: r-lib/actions/setup-pandoc@v2
 
