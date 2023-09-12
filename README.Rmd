@@ -42,7 +42,7 @@ library(ggplot2)
 my_df <- tibble::tribble(
 
 ~publisher, ~type, ~prop,~colors,
-"Elsevier","other",0.206,"#abb8c3",
+"Elsevier","DEAL",0.206,"#abb8c3",
 "Springer Nature","DEAL",0.204,"#ff6900",
 "Wiley","DEAL",0.108,"#ff6900",
 "MPDI","OA-Verlag",0.066,"#ff6900",
