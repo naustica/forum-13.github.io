@@ -15,8 +15,7 @@ toc: no
 
 ## Mitglieder
 
-- Sabrina Erkeling, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/) 
-- Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/) 
+- Dr. Sabrina Erkeling, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/) 
 - Dr. Angela Holzer, [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (Gast) 
 - Dr. Antje Kellersohn, [Universitätsbibliothek Freiburg](https://www.ub.uni-freiburg.de/) 
 - Petra Labriga, [ZB MED -- Informationszentrum Lebenswissenschaften](https://www.zbmed.de/) 
@@ -30,16 +29,16 @@ toc: no
 - Konstanze Söllner, [Universitätsbibliothek Erlangen-Nürnberg](https://ub.fau.de/) / [Deutscher Bibliotheksverband](https://www.bibliotheksverband.de/) (Gast) 
 - Dr. Ursula Stanek, [Staatsbibliothek zu Berlin](https://staatsbibliothek-berlin.de/) 
 - Stefanie Seeh, [Fraunhofer-Gesellschaft](https://www.fraunhofer.de/) 
+- Dr. Roland Wagner, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/) 
 
 ## Infrastrukturen und Initiativen
 
 Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
 
-- [Allianz der deutschen Wissenschaftsorganisationen: Schwerpunktinitiative „Digitale Information“ / Handlungsfeld „Wissenschaftliches Publikationssystem“](https://www.allianzinitiative.de/handlungsfelder/wissenschaftliches-publikationssystem/) 
+- [Allianz der deutschen Wissenschaftsorganisationen: Schwerpunkt „Digitalität in der Wissenschaft“ / Themenfeld „Weiterentwicklung des wissenschaftlichen Publizierens“](https://www.allianzschwerpunkt-digitalitaet.de/weiterentwicklung-des-wissenschaftlichen-publizierens/) 
 - [ESAC Initiative](https://esac-initiative.org/)
 - [GASCO: German, Austrian and Swiss Consortia Organisation](https://www.hbz-nrw.de/produkte/digitale-inhalte/gasco) 
 - [Kompetenzzentrum für Lizenzierung](https://www.fid-lizenzen.de)
-- [Nationaler Open-Access-Kontaktpunkt](https://oa2020-de.org/) 
 - [Open-Access-Monitor](https://open-access-monitor.de/)
-- [Projekt DEAL](https://www.projekt-deal.de/) 
+- [DEAL Konsortium](https://deal-konsortium.de) 
 
