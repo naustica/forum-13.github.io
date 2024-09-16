@@ -24,10 +24,7 @@ jobs:
       
       - name: Install Google Fonts
         run: |
-          wget -O Roboto.zip "https://fonts.google.com/download?family=Roboto"
-          unzip -d Roboto/ Roboto.zip
-          mv Roboto /usr/share/fonts/
-          fc-cache -fv
+          cp fonts/Roboto /usr/share/fonts/
 
       - uses: r-lib/actions/setup-pandoc@v2
 
