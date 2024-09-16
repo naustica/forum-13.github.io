@@ -24,7 +24,7 @@ jobs:
       
       - name: Install Google Fonts
         run: |
-          cp fonts/Roboto /usr/share/fonts/
+          cp -r fonts/Roboto /usr/share/fonts/
 
       - uses: r-lib/actions/setup-pandoc@v2
 
